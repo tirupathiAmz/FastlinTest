@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED243F6E22FB399F005762F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED243F6D22FB399F005762F5 /* AppDelegate.swift */; };
+		ED243F7022FB399F005762F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED243F6F22FB399F005762F5 /* ViewController.swift */; };
+		ED243F7322FB399F005762F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED243F7122FB399F005762F5 /* Main.storyboard */; };
+		ED243F7522FB39A0005762F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED243F7422FB39A0005762F5 /* Assets.xcassets */; };
+		ED243F7822FB39A0005762F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED243F7622FB39A0005762F5 /* LaunchScreen.storyboard */; };
+		ED243F8322FB39A0005762F5 /* FastlinTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED243F8222FB39A0005762F5 /* FastlinTestTests.swift */; };
+		ED243F8E22FB39A0005762F5 /* FastlinTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED243F8D22FB39A0005762F5 /* FastlinTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED243F7F22FB39A0005762F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED243F6222FB399F005762F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED243F6922FB399F005762F5;
+			remoteInfo = FastlinTest;
+		};
+		ED243F8A22FB39A0005762F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED243F6222FB399F005762F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED243F6922FB399F005762F5;
+			remoteInfo = FastlinTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED243F6A22FB399F005762F5 /* FastlinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastlinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED243F6D22FB399F005762F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED243F6F22FB399F005762F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED243F7222FB399F005762F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED243F7422FB39A0005762F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED243F7722FB39A0005762F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED243F7922FB39A0005762F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED243F7E22FB39A0005762F5 /* FastlinTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlinTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED243F8222FB39A0005762F5 /* FastlinTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlinTestTests.swift; sourceTree = "<group>"; };
+		ED243F8422FB39A0005762F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED243F8922FB39A0005762F5 /* FastlinTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlinTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED243F8D22FB39A0005762F5 /* FastlinTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlinTestUITests.swift; sourceTree = "<group>"; };
+		ED243F8F22FB39A0005762F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED243F6722FB399F005762F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED243F7B22FB39A0005762F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED243F8622FB39A0005762F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED243F6122FB399F005762F5 = {
+			isa = PBXGroup;
+			children = (
+				ED243F6C22FB399F005762F5 /* FastlinTest */,
+				ED243F8122FB39A0005762F5 /* FastlinTestTests */,
+				ED243F8C22FB39A0005762F5 /* FastlinTestUITests */,
+				ED243F6B22FB399F005762F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED243F6B22FB399F005762F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED243F6A22FB399F005762F5 /* FastlinTest.app */,
+				ED243F7E22FB39A0005762F5 /* FastlinTestTests.xctest */,
+				ED243F8922FB39A0005762F5 /* FastlinTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED243F6C22FB399F005762F5 /* FastlinTest */ = {
+			isa = PBXGroup;
+			children = (
+				ED243F6D22FB399F005762F5 /* AppDelegate.swift */,
+				ED243F6F22FB399F005762F5 /* ViewController.swift */,
+				ED243F7122FB399F005762F5 /* Main.storyboard */,
+				ED243F7422FB39A0005762F5 /* Assets.xcassets */,
+				ED243F7622FB39A0005762F5 /* LaunchScreen.storyboard */,
+				ED243F7922FB39A0005762F5 /* Info.plist */,
+			);
+			path = FastlinTest;
+			sourceTree = "<group>";
+		};
+		ED243F8122FB39A0005762F5 /* FastlinTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED243F8222FB39A0005762F5 /* FastlinTestTests.swift */,
+				ED243F8422FB39A0005762F5 /* Info.plist */,
+			);
+			path = FastlinTestTests;
+			sourceTree = "<group>";
+		};
+		ED243F8C22FB39A0005762F5 /* FastlinTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED243F8D22FB39A0005762F5 /* FastlinTestUITests.swift */,
+				ED243F8F22FB39A0005762F5 /* Info.plist */,
+			);
+			path = FastlinTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED243F6922FB399F005762F5 /* FastlinTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED243F9222FB39A0005762F5 /* Build configuration list for PBXNativeTarget "FastlinTest" */;
+			buildPhases = (
+				ED243F6622FB399F005762F5 /* Sources */,
+				ED243F6722FB399F005762F5 /* Frameworks */,
+				ED243F6822FB399F005762F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastlinTest;
+			productName = FastlinTest;
+			productReference = ED243F6A22FB399F005762F5 /* FastlinTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED243F7D22FB39A0005762F5 /* FastlinTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED243F9522FB39A0005762F5 /* Build configuration list for PBXNativeTarget "FastlinTestTests" */;
+			buildPhases = (
+				ED243F7A22FB39A0005762F5 /* Sources */,
+				ED243F7B22FB39A0005762F5 /* Frameworks */,
+				ED243F7C22FB39A0005762F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED243F8022FB39A0005762F5 /* PBXTargetDependency */,
+			);
+			name = FastlinTestTests;
+			productName = FastlinTestTests;
+			productReference = ED243F7E22FB39A0005762F5 /* FastlinTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED243F8822FB39A0005762F5 /* FastlinTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED243F9822FB39A0005762F5 /* Build configuration list for PBXNativeTarget "FastlinTestUITests" */;
+			buildPhases = (
+				ED243F8522FB39A0005762F5 /* Sources */,
+				ED243F8622FB39A0005762F5 /* Frameworks */,
+				ED243F8722FB39A0005762F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED243F8B22FB39A0005762F5 /* PBXTargetDependency */,
+			);
+			name = FastlinTestUITests;
+			productName = FastlinTestUITests;
+			productReference = ED243F8922FB39A0005762F5 /* FastlinTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED243F6222FB399F005762F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Amzur;
+				TargetAttributes = {
+					ED243F6922FB399F005762F5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					ED243F7D22FB39A0005762F5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = ED243F6922FB399F005762F5;
+					};
+					ED243F8822FB39A0005762F5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = ED243F6922FB399F005762F5;
+					};
+				};
+			};
+			buildConfigurationList = ED243F6522FB399F005762F5 /* Build configuration list for PBXProject "FastlinTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED243F6122FB399F005762F5;
+			productRefGroup = ED243F6B22FB399F005762F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED243F6922FB399F005762F5 /* FastlinTest */,
+				ED243F7D22FB39A0005762F5 /* FastlinTestTests */,
+				ED243F8822FB39A0005762F5 /* FastlinTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED243F6822FB399F005762F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED243F7822FB39A0005762F5 /* LaunchScreen.storyboard in Resources */,
+				ED243F7522FB39A0005762F5 /* Assets.xcassets in Resources */,
+				ED243F7322FB399F005762F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED243F7C22FB39A0005762F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED243F8722FB39A0005762F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED243F6622FB399F005762F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED243F7022FB399F005762F5 /* ViewController.swift in Sources */,
+				ED243F6E22FB399F005762F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED243F7A22FB39A0005762F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED243F8322FB39A0005762F5 /* FastlinTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED243F8522FB39A0005762F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED243F8E22FB39A0005762F5 /* FastlinTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED243F8022FB39A0005762F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED243F6922FB399F005762F5 /* FastlinTest */;
+			targetProxy = ED243F7F22FB39A0005762F5 /* PBXContainerItemProxy */;
+		};
+		ED243F8B22FB39A0005762F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED243F6922FB399F005762F5 /* FastlinTest */;
+			targetProxy = ED243F8A22FB39A0005762F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED243F7122FB399F005762F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED243F7222FB399F005762F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED243F7622FB39A0005762F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED243F7722FB39A0005762F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED243F9022FB39A0005762F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED243F9122FB39A0005762F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED243F9322FB39A0005762F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XWU3QL46Z;
+				INFOPLIST_FILE = FastlinTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amzur.test.FastlinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED243F9422FB39A0005762F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XWU3QL46Z;
+				INFOPLIST_FILE = FastlinTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amzur.test.FastlinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED243F9622FB39A0005762F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XWU3QL46Z;
+				INFOPLIST_FILE = FastlinTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amzur.test.FastlinTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastlinTest.app/FastlinTest";
+			};
+			name = Debug;
+		};
+		ED243F9722FB39A0005762F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XWU3QL46Z;
+				INFOPLIST_FILE = FastlinTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amzur.test.FastlinTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastlinTest.app/FastlinTest";
+			};
+			name = Release;
+		};
+		ED243F9922FB39A0005762F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XWU3QL46Z;
+				INFOPLIST_FILE = FastlinTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amzur.test.FastlinTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastlinTest;
+			};
+			name = Debug;
+		};
+		ED243F9A22FB39A0005762F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XWU3QL46Z;
+				INFOPLIST_FILE = FastlinTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amzur.test.FastlinTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastlinTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED243F6522FB399F005762F5 /* Build configuration list for PBXProject "FastlinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED243F9022FB39A0005762F5 /* Debug */,
+				ED243F9122FB39A0005762F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED243F9222FB39A0005762F5 /* Build configuration list for PBXNativeTarget "FastlinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED243F9322FB39A0005762F5 /* Debug */,
+				ED243F9422FB39A0005762F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED243F9522FB39A0005762F5 /* Build configuration list for PBXNativeTarget "FastlinTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED243F9622FB39A0005762F5 /* Debug */,
+				ED243F9722FB39A0005762F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED243F9822FB39A0005762F5 /* Build configuration list for PBXNativeTarget "FastlinTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED243F9922FB39A0005762F5 /* Debug */,
+				ED243F9A22FB39A0005762F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED243F6222FB399F005762F5 /* Project object */;
+}
